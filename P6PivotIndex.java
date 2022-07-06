@@ -21,7 +21,7 @@ public class P6PivotIndex {
         return -1;
     }
     public static void main(String[] args) {
-        int arr[]={0,7,0,0,9,0,4,3};
+        int arr[]={0,7,0};
         int index=P6PivotIndex.pivotIndex(arr);
         System.out.println(index);
         

@@ -6,7 +6,7 @@ public class P4MoveZeroEnd
         int j=0 ,temp;
         for(int i=0;i<n;i++)
         {
-            if(arr[i]!=0)
+            if(arr[i]!=0 && i!=j)
             {
                 temp=arr[i];
                 arr[i]=arr[j];
